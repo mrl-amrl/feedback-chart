@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="robot_data_anlysis" name="robot_feedback_analysis" type="feedback_analysis.py" output="screen" respawn="false">
+	      <param name=  "robot_feedback_topic"  type=     "string"       value =                   "/karo_feedback"          />
+        <param name="path_to_save_data"       type=     "string"       value = "/home/opst/catkin_ws/src/robot_data_anlysis/data/"/>
+        <param name="exel_is_enable"          type =     "bool"        value= "True"/>
+        <param name="plot_is_enable"          type =     "bool"        value= "True"/>
+        <param name="plot_mode"               type =     "string"      value= "all"/>
+        
+	</node>
+</launch>
