@@ -3,6 +3,11 @@
 
 > **package for show feed backs analysis**
 
+## Dependencies
+`pip install matplotlib`
+
+`pip install xlsxwriter`
+
 ## Launch
 
 > **For run feedback analyser simply run below in CLI**
