@@ -167,7 +167,7 @@ class FeedBackAnalysis:
             plt.title("3 Plot of manipulator current in time")
             plt.ylabel('Current Yaw')
             plt.plot(time,current_joint0)
-            1
+
             plt.subplot(312)
             plt.ylabel('Current Link1')
             plt.plot(time,current_joint1)
